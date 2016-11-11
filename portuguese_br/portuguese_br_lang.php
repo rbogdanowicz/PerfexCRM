@@ -1,6 +1,8 @@
 <?php
 # Version 1.0.0
-#
+# Revisão: Rodrigo Bogdanowicz 
+# Data: 10/11/2016
+
 # General
 $lang['id'] = 'ID';
 $lang['name'] = 'Nome';
@@ -18,54 +20,54 @@ $lang['send'] = 'Enviar';
 $lang['cancel'] = 'Cancelar';
 $lang['go_back'] = 'Voltar';
 $lang['error_uploading_file'] = 'Erro ao atualizar o arquivo';
-$lang['load_more'] = 'Carregar Mais';
+$lang['load_more'] = 'Carregar mais';
 $lang['cant_delete_default'] = 'Não é possível deletar o padrão %s';
 
 # Invoice General
 $lang['invoice_status_paid'] = 'Pago';
 $lang['invoice_status_unpaid'] = 'Não pago';
 $lang['invoice_status_overdue'] = 'Vencido';
-$lang['invoice_status_not_paid_completely'] = 'Parcialmente Pago';
+$lang['invoice_status_not_paid_completely'] = 'Parcialmente pago';
 
-$lang['invoice_pdf_heading'] = 'INVOICE';
+$lang['invoice_pdf_heading'] = 'Fatura';
 
 $lang['invoice_table_item_heading'] = 'Item';
-$lang['invoice_table_quantity_heading'] = 'Qtdd';
+$lang['invoice_table_quantity_heading'] = 'Qtd.';
 $lang['invoice_table_rate_heading'] = 'Tarifa';
-$lang['invoice_table_tax_heading'] = 'Taxa';
-$lang['invoice_table_amount_heading'] = 'Quantia';
-$lang['invoice_subtotal'] = 'Sub Total';
+$lang['invoice_table_tax_heading'] = 'Imposto';
+$lang['invoice_table_amount_heading'] = 'Valor';
+$lang['invoice_subtotal'] = 'Sub total';
 $lang['invoice_adjustment'] = 'Ajuste';
 $lang['invoice_total'] = 'Total';
 $lang['invoice_vat'] = 'Número VAT';
-$lang['invoice_bill_to'] = 'Conta Para';
-$lang['invoice_data_date'] = 'Data da Fatura:';
-$lang['invoice_data_duedate'] = 'Data de Vencimento:';
+$lang['invoice_bill_to'] = 'Faturado para';
+$lang['invoice_data_date'] = 'Data da fatura:';
+$lang['invoice_data_duedate'] = 'Vencimento:';
 $lang['invoice_received_payments'] = 'Transações';
-$lang['invoice_no_payments_found'] = 'Nenhum Pagamento encontrado para essa fatura';
-$lang['invoice_note'] = 'Nota:';
+$lang['invoice_no_payments_found'] = 'Nenhum registro encontrado';
+$lang['invoice_note'] = 'Observações:';
 $lang['invoice_payments_table_number_heading'] = 'Pagamento #';
-$lang['invoice_payments_table_mode_heading'] = 'Modo de Pagamento';
+$lang['invoice_payments_table_mode_heading'] = 'Método de pagamento';
 $lang['invoice_payments_table_date_heading'] = 'Data';
-$lang['invoice_payments_table_amount_heading'] = 'Quantia';
+$lang['invoice_payments_table_amount_heading'] = 'Valor';
 
 
-# Announcements
-$lang['announcement'] = 'Anúncio';
-$lang['announcement_lowercase'] = 'anúncio';
-$lang['announcements'] = 'Anúncios';
-$lang['announcements_lowercase'] = 'anúncios';
-$lang['new_announcement'] = 'Novo Anúncio';
-$lang['announcement_name'] = 'Nome do anúncio';
+# Comunicados
+$lang['announcement'] = 'Comunicado';
+$lang['announcement_lowercase'] = 'comunicado';
+$lang['announcements'] = 'Comunicados';
+$lang['announcements_lowercase'] = 'comunicados';
+$lang['new_announcement'] = 'Novo comunicado';
+$lang['announcement_name'] = 'Nome do comunicado';
 $lang['announcement_message'] = 'Mensagem';
-$lang['announcement_show_to_staff'] = 'Mostrar para o Funcionários';
-$lang['announcement_show_to_clients'] = 'Mostrar para os Clientes';
-$lang['announcement_show_my_name'] = 'Mostrar meu nome';
+$lang['announcement_show_to_staff'] = 'Exibir para colaboradores';
+$lang['announcement_show_to_clients'] = 'Exibir para clientes';
+$lang['announcement_show_my_name'] = 'Exibir meu nome';
 
-# Clients
+# Clientes
 $lang['clients'] = 'Clientes';
 $lang['client'] = 'Cliente';
-$lang['new_client'] = 'Novo Cliente';
+$lang['new_client'] = 'Novo cliente';
 $lang['client_lowercase'] = 'cliente';
 $lang['client_delete_tooltip'] = 'Todos os dados do cliente serão deletados. Contratos, tiquetes, notas. NOTA: Se as faturas encontradas do cliente não serão deletadas. Você precisa atribuir essa fatura para outro cliente para manter o número da fatura';
 $lang['customer_delete_invoices_warning'] = 'Este cliente tem faturas na conta. Você não pode deletar este cliente. Altere todas as faturas para outro cliente no futuro e, então delete.';
@@ -90,7 +92,7 @@ $lang['client_invoice_number_table_heading'] = 'Fatura #';
 $lang['client_invoice_date_table_heading'] = 'Data';
 $lang['client_invoice_due_date_table_heading'] = 'Data de Vencimento';
 $lang['client_string_table_heading'] = 'Cliente';
-$lang['client_amount_table_heading'] = 'Quantia';
+$lang['client_amount_table_heading'] = 'Valor';
 $lang['client_status_table_heading'] = 'Status';
 $lang['note_description'] = 'Descrição da Nota';
 
@@ -258,7 +260,7 @@ $lang['invoices_toggle_table_tooltip'] = 'Tabela de alternância';
 
 $lang['edit_invoice_tooltip'] = 'Editar Fatura';
 $lang['delete_invoice_tooltip'] = 'Deletar Fatura. Nota: Todos os pagamentos relativos a essa fatura serão deletados (se houver algum).';
-$lang['invoice_sent_to_email_tooltip'] = 'Enviar por E-mail';
+$lang['invoice_sent_to_email_tooltip'] = 'Enviar por e-mail';
 $lang['invoice_already_send_to_client_tooltip'] = 'Essa fatura já foi enviada para o cliente %s';
 $lang['send_overdue_notice_tooltip'] = 'Enviar Aviso de Vencimento';
 $lang['invoice_view_activity_tooltip'] = 'Registro de Atividade';
@@ -272,17 +274,17 @@ $lang['invoice_dt_table_heading_number'] = 'Fatura #';
 $lang['invoice_dt_table_heading_date'] = 'Data';
 $lang['invoice_dt_table_heading_client'] = 'Cliente';
 $lang['invoice_dt_table_heading_duedate'] = 'Data de Vencimento';
-$lang['invoice_dt_table_heading_amount'] = 'Quantia';
+$lang['invoice_dt_table_heading_amount'] = 'Valor';
 $lang['invoice_dt_table_heading_status'] = 'Status';
 
-$lang['record_payment_for_invoice'] = 'Pagamento Registrado para';
-$lang['record_payment_amount_received'] = 'Quantia Recebida';
-$lang['record_payment_date'] = 'Data de Pagamento';
+$lang['record_payment_for_invoice'] = 'Pagamento registrado para';
+$lang['record_payment_amount_received'] = 'Valor recebido';
+$lang['record_payment_date'] = 'Data do pagamento';
 $lang['record_payment_leave_note'] = 'Deixar uma anotação';
-$lang['invoice_payments_received'] = 'Pagamentos Recebidos';
-$lang['invoice_record_payment_note_placeholder'] = 'Anotação do Admin';
-$lang['no_payments_found'] = 'Nenhum Pagamento encontrado para essa fatura';
-$lang['invoice_email_link_text'] = 'Visualizar Fatura';
+$lang['invoice_payments_received'] = 'Pagamentos recebidos';
+$lang['invoice_record_payment_note_placeholder'] = 'Observações (oculto para o cliente)';
+$lang['no_payments_found'] = 'Nenhum registro encontrado';
+$lang['invoice_email_link_text'] = 'Visualizar fatura';
 
 # Payments
 $lang['payments'] = 'Pagamentos';
@@ -290,45 +292,45 @@ $lang['payment'] = 'Pagamento';
 $lang['payment_lowercase'] = 'pagamento';
 $lang['payments_table_number_heading'] = 'Pagamento #';
 $lang['payments_table_invoicenumber_heading'] = 'Fatura #';
-$lang['payments_table_mode_heading'] = 'Modo de Pagamento';
+$lang['payments_table_mode_heading'] = 'Método de pagamento';
 $lang['payments_table_date_heading'] = 'Data';
-$lang['payments_table_amount_heading'] = 'Quantia';
+$lang['payments_table_amount_heading'] = 'Valor';
 $lang['payments_table_client_heading'] = 'Cliente';
-$lang['payment_not_exists'] = 'O pagamento não existe';
+$lang['payment_not_exists'] = 'Pagamento não encontrado';
 
 $lang['payment_edit_for_invoice'] = 'Pagamento por Fatura';
-$lang['payment_edit_amount_received'] = 'Quantia Recebida';
-$lang['payment_edit_date'] = 'Data de Pagamento';
-$lang['payment_edit_lave_note'] = 'Deixar uma Anotação';
+$lang['payment_edit_amount_received'] = 'Valor recebido';
+$lang['payment_edit_date'] = 'Data do pagamento';
+$lang['payment_edit_lave_note'] = 'Deixar uma observação';
 
 
-# Knowledge Base
+# Wiki
 $lang['kb_article_add_edit_subject'] = 'Assunto';
-$lang['kb_article_add_edit_group'] = 'Gropo';
-$lang['kb_string'] = 'Conhecimento Base';
+$lang['kb_article_add_edit_group'] = 'Grupo';
+$lang['kb_string'] = 'Wiki';
 $lang['kb_article'] = 'Artigo';
 $lang['kb_article_lowercase'] = 'artigo';
-$lang['kb_article_new_article'] = 'Novo Artigo';
+$lang['kb_article_new_article'] = 'Novo artigo';
 $lang['kb_article_disabled'] = 'Desabilitar';
-$lang['kb_article_description'] = 'Descrição do Artigo';
+$lang['kb_article_description'] = 'Descrição do artigo';
 
 $lang['kb_table'] = 'Lista';
-$lang['kb_no_articles_found'] = 'Nenhum artigo de conhecimento encontrado';
-$lang['kb_dt_article_name'] = 'Nome do Artigo';
-$lang['kb_dt_group_name'] = 'Gropo';
-$lang['new_group'] = 'Novo Grupo';
-$lang['kb_group_add_edit_name'] = 'Nome do Grupo';
-$lang['kb_group_add_edit_description'] = 'Descrição curta';
-$lang['kb_group_add_edit_disabled'] = 'Desabilitado';
-$lang['kb_group_add_edit_note'] = 'Nota: Todos os artigos nesse grupo serão escondidos se desabilitado for selecionado';
+$lang['kb_no_articles_found'] = 'Nenhum registro encontrado';
+$lang['kb_dt_article_name'] = 'Nome do artigo';
+$lang['kb_dt_group_name'] = 'Grupo';
+$lang['new_group'] = 'Novo grupo';
+$lang['kb_group_add_edit_name'] = 'Nome do grupo';
+$lang['kb_group_add_edit_description'] = 'Descrição (curta)';
+$lang['kb_group_add_edit_disabled'] = 'Desativar';
+$lang['kb_group_add_edit_note'] = 'Nota: Todos os artigos nesse grupo ficarão ocultos se marcado a opção desativar.';
 $lang['group_table_name_heading'] = 'Nome';
 $lang['group_table_isactive_heading'] = 'Ativo';
-$lang['kb_no_groups_found'] = 'Nenhum grupo de base de conhecimento encontrado';
+$lang['kb_no_groups_found'] = 'Nenhum registro encontrado';
 
-# Mail Lists
-$lang['mail_lists'] = 'Listas de Envio';
-$lang['mail_list'] = 'Lista de Envio';
-$lang['new_mail_list'] = 'Nova Lista de Envio';
+# Listas de e-mail
+$lang['mail_lists'] = 'Listas de envio';
+$lang['mail_list'] = 'Lista de envio';
+$lang['new_mail_list'] = 'Nova lista de envio';
 $lang['mail_list_lowercase'] = 'lista de envio';
 $lang['custom_field_deleted_success'] = 'Campo Personalizado deletado';
 $lang['custom_field_deleted_fail'] = 'Problema ao deletar o campo personalizado';
@@ -360,7 +362,7 @@ $lang['mail_lists_dt_creator'] = 'Criador';
 $lang['email_added_to_mail_list_successfuly'] = 'E-mail adicionado a lista';
 $lang['email_is_duplicate_mail_list'] = 'E-mail já existente nessa lista';
 
-# Media
+# Mídias
 $lang['media_files'] = 'Arquivos';
 
 # Payment modes
@@ -421,32 +423,32 @@ $lang['reports_sales_generated_report'] = 'Relatórios Generalizados';
 
 
 $lang['reports_sales_dt_customers_client'] = 'Cliente';
-$lang['reports_sales_dt_customers_total_invoices'] = 'Total de Faturas';
-$lang['reports_sales_dt_items_customers_amount'] = 'Quantia';
-$lang['reports_sales_dt_items_customers_amount_with_tax'] = 'Quantia com Taxas';
+$lang['reports_sales_dt_customers_total_invoices'] = 'Total das faturas';
+$lang['reports_sales_dt_items_customers_amount'] = 'Valor';
+$lang['reports_sales_dt_items_customers_amount_with_tax'] = 'Valor com impostos';
 
-# Roles
-$lang['new_role'] = 'Nova Função';
-$lang['all_roles'] = 'Todas as Funções';
-$lang['roles'] = 'Funções dos Funcionários';
-$lang['role'] = 'Função';
-$lang['role_lowercase'] = 'função';
-$lang['roles_total_users'] = 'Total de Usuários: ';
-$lang['roles_dt_name'] = 'Nome da Função';
-$lang['role_add_edit_name'] = 'Nome da Função';
+# Permissões
+$lang['new_role'] = 'Nova permissão';
+$lang['all_roles'] = 'Todas as permissões';
+$lang['roles'] = 'Permissões dos colaboradores';
+$lang['role'] = 'Permissão';
+$lang['role_lowercase'] = 'permissão';
+$lang['roles_total_users'] = 'Total de permissões: ';
+$lang['roles_dt_name'] = 'Nome da permissão';
+$lang['role_add_edit_name'] = 'Nome da permissão';
 
-# Service
-$lang['new_service'] = 'Novo Serviço';
+# Serviços
+$lang['new_service'] = 'Novo serviço';
 $lang['services'] = 'Serviços';
 $lang['service'] = 'Serviço';
 $lang['service_lowercase'] = 'serviço';
-$lang['services_dt_name'] = 'Nome do Serviço';
-$lang['service_add_edit_name'] = 'Nome do Serviço';
+$lang['services_dt_name'] = 'Nome do serviço';
+$lang['service_add_edit_name'] = 'Nome do serviço';
 
-# Settings
+# Configurações
 $lang['settings'] = 'Configurações';
-$lang['settings_updated'] = 'Configurações Atualizadas';
-$lang['settings_save'] = 'Salvar Configurações';
+$lang['settings_updated'] = 'Configurações atualizadas';
+$lang['settings_save'] = 'Salvar configurações';
 $lang['settings_group_general'] = 'Geral';
 $lang['settings_group_localization'] = 'Localização';
 $lang['settings_group_tickets'] = 'Tiquetes';
@@ -506,8 +508,8 @@ $lang['settings_sales_invoice_prefix'] = 'Prefixo do Número da Fatura';
 $lang['settings_sales_decimal_separator'] = 'Separador Decimal';
 $lang['settings_sales_thousand_separator'] = 'Separador Centesimal';
 $lang['settings_sales_currency_placement'] = 'Colocação da Moeda';
-$lang['settings_sales_currency_placement_before'] = 'Quantia Anterior';
-$lang['settings_sales_currency_placement_after'] = 'Quantia Posterior';
+$lang['settings_sales_currency_placement_before'] = 'Valor Anterior';
+$lang['settings_sales_currency_placement_after'] = 'valor Posterior';
 $lang['settings_sales_require_client_logged_in_to_view_invoice'] = 'É necessário que o cliente esteja conectado a uma faturada vista';
 $lang['settings_sales_next_invoice_number'] = 'Próximo Número de Fatura';
 $lang['settings_sales_next_invoice_number_tooltip'] = 'Defina esse campo como 1 se você quer começar do início';
@@ -959,8 +961,8 @@ $lang['clients_invoice_html_btn_download'] = 'Baixar';
 $lang['clients_my_invoices'] = 'Minhas Faturas';
 $lang['clients_invoice_dt_number'] = 'Fatura #';
 $lang['clients_invoice_dt_date'] = 'Data';
-$lang['clients_invoice_dt_duedate'] = 'Data de Vencimento';
-$lang['clients_invoice_dt_amount'] = 'Quantia';
+$lang['clients_invoice_dt_duedate'] = 'Data do vencimento';
+$lang['clients_invoice_dt_amount'] = 'Valor';
 $lang['clients_invoice_dt_status'] = 'Status';
 
 # Profile
@@ -1077,11 +1079,11 @@ $lang['payment_receipt'] = 'Recibo do pagamento';
 $lang['payment_for_string'] = 'Pagamento Para';
 $lang['payment_date'] = 'Data de Pagamento:';
 $lang['payment_view_mode'] = 'Modo de Pagamento:';
-$lang['payment_total_amount'] = 'Quantia Total';
+$lang['payment_total_amount'] = 'Valor total';
 $lang['payment_table_invoice_number'] = 'Número da Fatura';
 $lang['payment_table_invoice_date'] = 'Data da Fatura';
-$lang['payment_table_invoice_amount_total'] = 'Quantia da Fatura';
-$lang['payment_table_payment_amount_total'] = 'Quantia do Pagamento';
+$lang['payment_table_invoice_amount_total'] = 'valor da fatura';
+$lang['payment_table_payment_amount_total'] = 'Valor do pagamento';
 $lang['payments_table_transaction_id'] = 'ID da Transação: %s';
 $lang['payment_getaway_token_not_found'] = 'Símbolo não Encontrado';
 $lang['online_payment_recorded_success'] = 'Pagamento registado com sucesso';
@@ -1170,9 +1172,9 @@ $lang['payment_total'] = 'Total: %s';
 $lang['invoice_html_online_payment'] = 'Pagamento Online';
 $lang['invoice_html_online_payment_button_text'] = 'Pagar agora';
 $lang['invoice_html_payment_modes_not_selected'] = 'Por favor, Selecione um Modo de Pagamento';
-$lang['invoice_html_amount_blank'] = 'Quantia total não pode estar em branco ou ser zero';
+$lang['invoice_html_amount_blank'] = 'Valor total não pode estar em branco ou ser igual a zero';
 $lang['invoice_html_offline_payment'] = 'Pagamento Offline';
-$lang['invoice_html_amount'] = 'Quantia';
+$lang['invoice_html_amount'] = 'Valor';
 
 
 # Version 1.0.2
@@ -1335,7 +1337,7 @@ $lang['estimate_dt_table_heading_number'] = 'Estimativa #';
 $lang['estimate_dt_table_heading_date'] = 'Data';
 $lang['estimate_dt_table_heading_client'] = 'Cliente';
 $lang['estimate_dt_table_heading_expirydate'] = 'Data de Expiração';
-$lang['estimate_dt_table_heading_amount'] = 'Quantia';
+$lang['estimate_dt_table_heading_amount'] = 'Valor';
 $lang['estimate_dt_table_heading_status'] = 'Status';
 
 $lang['estimate_email_link_text'] = 'Visualizar Estimativa';
@@ -1351,10 +1353,10 @@ $lang['client_payments_tab'] = 'Pagamentos';
 # Estimate General
 $lang['estimate_pdf_heading'] = 'ESTIMATIVA';
 $lang['estimate_table_item_heading'] = 'Item';
-$lang['estimate_table_quantity_heading'] = 'Qtdd';
+$lang['estimate_table_quantity_heading'] = 'Qtd.';
 $lang['estimate_table_rate_heading'] = 'Tarifa';
 $lang['estimate_table_tax_heading'] = 'Taxa';
-$lang['estimate_table_amount_heading'] = 'Quantia';
+$lang['estimate_table_amount_heading'] = 'Valor';
 $lang['estimate_subtotal'] = 'Sub Total';
 $lang['estimate_adjustment'] = 'Ajuste';
 $lang['estimate_discount'] = 'Desconto';
@@ -1379,7 +1381,7 @@ $lang['qa_create_lead'] = 'Criar Lead';
 $lang['clients_estimate_dt_number'] = 'Estimativa #';
 $lang['clients_estimate_dt_date'] = 'Data';
 $lang['clients_estimate_dt_duedate'] = 'Data de Expiração';
-$lang['clients_estimate_dt_amount'] = 'Quantia';
+$lang['clients_estimate_dt_amount'] = 'Valor';
 $lang['clients_estimate_dt_status'] = 'Status';
 $lang['clients_nav_estimates'] = 'Estimativas';
 $lang['clients_decline_estimate'] = 'Declinar';
@@ -1482,7 +1484,7 @@ $lang['settings_custom_pdf_logo_image_url_tooltip'] = 'Provavelmente você terá
 
 # General
 $lang['sale_agent_string'] = 'Agente de Venda';
-$lang['amount_display_in_base_currency'] = 'Quantia está exibida na sua moeda base';
+$lang['amount_display_in_base_currency'] = 'Valor está exibida na sua moeda base';
 
 # Leads
 $lang['leads_summary'] = 'Resumo de Leads';
@@ -1606,14 +1608,14 @@ $lang['expense_add_edit_customer'] = 'Cliente';
 $lang['expense_add_edit_currency'] = 'Moeda';
 $lang['expense_add_edit_note'] = 'Nota';
 $lang['expense_add_edit_date'] = 'Data da despesa';
-$lang['expense_add_edit_amount'] = 'Quantia';
+$lang['expense_add_edit_amount'] = 'Valor';
 $lang['expense_add_edit_billable'] = 'Faturável';
 $lang['expense_add_edit_attach_receipt'] = 'Recibo Anexo';
 $lang['expense_add_edit_reference_no'] = 'Referência #';
 $lang['expense_receipt'] = 'Recibo da Despesa';
 $lang['expense_receipt_lowercase'] = 'recibo da despesa';
 $lang['expense_dt_table_heading_category'] = 'Categoria';
-$lang['expense_dt_table_heading_amount'] = 'Quantia';
+$lang['expense_dt_table_heading_amount'] = 'Valor';
 $lang['expense_dt_table_heading_date'] = 'Data';
 $lang['expense_dt_table_heading_reference_no'] = 'Referência #';
 $lang['expense_dt_table_heading_customer'] = 'Cliente';
@@ -1641,7 +1643,7 @@ $lang['expense_note'] = 'Nota:';
 $lang['expense_date'] = 'Data:';
 $lang['expense_ref_noe'] = 'Ref #:';
 $lang['expense_tax'] = 'Taxa:';
-$lang['expense_amount'] = 'Quantia:';
+$lang['expense_amount'] = 'Valor:';
 $lang['expense_recurring_indicator'] = 'Recorrente';
 $lang['expense_already_invoiced'] = 'Esta despesa já está faturada';
 $lang['expense_recurring_auto_create_invoice'] = 'Auto Criação da Fatura';
@@ -2262,7 +2264,7 @@ $lang['invoice_activity_recuring_from_expense_created'] = '[Invoice From Expense
 $lang['invoice_activity_sent_to_client_cron'] = 'Fatura enviada para o cliente por CRON';
 $lang['invoice_activity_sent_to_client'] = 'fatura enviada para o cliente';
 $lang['invoice_activity_marked_as_sent'] = 'fatura marcada como enviada';
-$lang['invoice_activity_payment_deleted'] = 'pagamento deletado para a fatura. Pagamento #%s, quantia total %s';
+$lang['invoice_activity_payment_deleted'] = 'pagamento deletado para a fatura. Pagamento #%s, valor total %s';
 $lang['invoice_activity_payment_made_by_client'] = 'Cliente realizou o pagamento para a fatura do total <b>%s</b> - %s';
 $lang['invoice_activity_payment_made_by_staff'] = 'pagamento registrado do total <b>%s</b> - %s';
 $lang['invoice_activity_added_attachment'] = 'Anexo adicionado';
@@ -2295,7 +2297,7 @@ $lang['proposal_items_description'] = 'Descrição';
 $lang['proposal_items_qty'] = 'Qtdd';
 $lang['proposal_items_rate'] = 'Tarifa';
 $lang['proposal_items_tax'] = 'Taxa';
-$lang['proposal_items_amount'] = 'Quantia';
+$lang['proposal_items_amount'] = 'Valor';
 
 # Authentication
 $lang['check_email_for_reseting_password'] = 'Verifique seu e-mail para obter mais instruções para redefinir sua senha';
@@ -2310,7 +2312,7 @@ $lang['auth_reset_password_submit'] = 'Redefinir Senha';
 
 # Settings
 $lang['settings_amount_to_words'] = 'Quantidade de palavras';
-$lang['settings_amount_to_words_desc'] = 'Quantia total de saída por palavras em fatura/estimativa';
+$lang['settings_amount_to_words_desc'] = 'Valor total de saída por palavras em fatura/estimativa';
 $lang['settings_amount_to_words_enabled'] = 'Habilitar';
 $lang['settings_total_to_words_lowercase'] = 'Número de palavras em letras minúsculas';
 $lang['settings_show_tax_per_item'] = 'Mostrar TAXA por item (Faturas/Estimativas)';
@@ -2321,12 +2323,12 @@ $lang['report_invoice_number'] = 'Fatura #';
 $lang['report_invoice_customer'] = 'Cliente';
 $lang['report_invoice_date'] = 'Data';
 $lang['report_invoice_duedate'] = 'Data de Vencimento';
-$lang['report_invoice_amount'] = 'Quantia';
-$lang['report_invoice_amount_with_tax'] = 'Quantia com taxa';
-$lang['report_invoice_amount_open'] = 'Quantia aberta';
+$lang['report_invoice_amount'] = 'Valor';
+$lang['report_invoice_amount_with_tax'] = 'Valor com impostos';
+$lang['report_invoice_amount_open'] = 'Valor em aberta';
 $lang['report_invoice_status'] = 'Status';
-$lang['report_invoice_total_amount_with_tax'] = 'Quantia total com taxa';
-$lang['report_invoice_total_amount_without_tax'] = 'Quantia total sem taxa';
+$lang['report_invoice_total_amount_with_tax'] = 'Valor total com impostos';
+$lang['report_invoice_total_amount_without_tax'] = 'Valor total sem impostos';
 $lang['report_invoice_total_taxes'] = 'Taxas';
 
 #Version 1.0.9
@@ -2368,7 +2370,7 @@ $lang['dt_button_export'] = 'Exportar';
 
 $lang['dt_entries'] = 'entrada';
 $lang['invoice_total_paid'] = 'Total Pago';
-$lang['invoice_amount_due'] = 'Quantia devida';
+$lang['invoice_amount_due'] = 'Valor em aberto';
 $lang['report_invoice_discount'] = 'Descontos';
 
 # Calendar
@@ -2385,7 +2387,7 @@ $lang['task_comment_added'] = 'Comentário adicionado com sucesso';
 $lang['task_duedate'] = 'Data de Vencimento';
 $lang['task_view_comments'] = 'Comentários';
 $lang['task_comment_updated'] = 'Comentário atualizado';
-$lang['task_visible_to_client'] = 'Visível para Cliente';
+$lang['task_visible_to_client'] = 'Visível para cliente';
 $lang['task_hourly_rate'] = 'Tarifa por Hora';
 $lang['hours'] = 'Horas';
 $lang['seconds'] = 'Segundos';
